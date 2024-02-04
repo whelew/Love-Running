@@ -1,8 +1,19 @@
 /* Asterick Wildcard Selector to override default styles added by the browser */
 * {
     padding: 0;
-    margin: 0; 
+    margin: 0;
     box-sizing: border-box;
+}
+
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project Stlyles */
+    color: #3a3a3a;
+
 }
 
 /* header */
@@ -13,6 +24,8 @@ header {
 /* Main Content */
 main {
     background-color: lightblue;
+    /* Make main elemnet take up any surplus of space to push footer to down */
+    flex: 1 0 auto;
 }
 
 /* footer */
