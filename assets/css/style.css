@@ -54,7 +54,7 @@ footer {
     background-color: orange;
 }
 
-menu {
+#menu { 
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
