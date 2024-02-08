@@ -170,6 +170,12 @@ main {
     max-height: 300px;
 }
 
+#benfits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Media query: tabelts and larger (768 px and above) */ 
 @media screen and (min-width: 768px) {
     /*header*/
