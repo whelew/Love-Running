@@ -159,6 +159,17 @@ main {
     margin-bottom: 20px;
 }
 
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* makes sure the image is a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* Media query: tabelts and larger (768 px and above) */ 
 @media screen and (min-width: 768px) {
     /*header*/
