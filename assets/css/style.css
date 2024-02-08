@@ -215,6 +215,14 @@ main {
     color: #fafafa;
 }
 
+/* Media query: large or landscape phones (576px and above) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 
 /* Media query: tabelts and larger (768 px and above) */ 
 @media screen and (min-width: 768px) {
@@ -271,12 +279,20 @@ main {
     align-self: flex-end;
 }
 
+#photos {
+    column-count: 3;
+}
+
 }
 
 @media screen and (min-width: 992px) {
 
     header a:hover {
        border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
     }
 
 }
